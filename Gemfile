@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'font-awesome-sass', '~> 4.7'
+gem 'devise', '~> 4.2', '>= 4.2.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
