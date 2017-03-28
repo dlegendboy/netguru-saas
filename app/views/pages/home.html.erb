@@ -2,3 +2,21 @@
 	<h1>Welcome To My Blog Section</h1>
 	<p>Feel free to leave <em>Posts, Comments, Tutorials</em> or just about anything relevant.</p>
 </div>
+
+<div class="row">
+	<div class="col-md-6">
+		<div class="well">
+			<h2>Basic Membership <small>(Free)</small></h2>
+			<h4>Sign Up for free and get basic access ...</h4>
+			<%= link_to "Sign Up for Basic", new_user_registration_path, class: "btn btn-primary btn-lg btn-block" %>
+		</div>
+	</div>
+
+	<div class="col-md-6">
+		<div class="well">
+			<h2>Pro Membership <small>(@ $15/month)</small></h2>
+			<h4>Get full access including contacting other members</h4>
+			<%= link_to "Sign Up for Pro", new_user_registration_path, class: "btn btn-success btn-lg btn-block" %>
+		</div>
+	</div>
+</div>
